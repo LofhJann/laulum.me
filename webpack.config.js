@@ -31,6 +31,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: __dirname
+    contentBase: __dirname,
+    disableHostCheck: true
   }
 };
